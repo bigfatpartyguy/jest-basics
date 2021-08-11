@@ -1,0 +1,11 @@
+{
+  "collectCoverageFrom": ["**/*.js", "!node_modules/**", "!coverage/**"],
+  "coverageThreshold": {
+    "global": {
+      "statements": 50,
+      "functions": 50,
+      "branches": 50,
+      "lines": 70
+    }
+  }
+}
